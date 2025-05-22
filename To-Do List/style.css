@@ -1,0 +1,130 @@
+*{
+    padding: 0%;
+    margin: 0%;   
+    
+}
+ body {
+    transition: background-colour-0.3s; 
+     background-image: url(6.jpg);
+      background-size: cover;
+      background-position: center;
+   }
+
+ body.dark-mode {
+    background-position: center;
+    background-size: cover;
+    background-image: url(2.jpg);
+    color: white;
+ }
+ .setting {
+       height: 100%;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       margin-top: 4vmin;
+       
+ }
+
+   .b {
+     font-size: 8vmin;
+  }
+
+  .main {
+    margin-top: 9vmin;
+    color: black;
+  
+  }
+  
+.header img {
+  height: 10vmin;
+  padding-left: 5vmin;
+}
+ .header {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+   height: 10vmin;
+   width: 80vmin;
+   background-color: #a2abb1b4;
+   border-top-left-radius: 7vmin;
+   border-top-right-radius: 7vmin;
+   font-size: 3vmin;
+ }
+ .input {
+    background-color: #a2abb1b4;
+     width: 80vmin;
+     height: 5vmin;
+     padding-top: 1vmin;
+     padding-bottom: 1vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .inputBox {
+     width: 60vmin;
+     height: 5vmin;
+     padding-left: 3vmin;
+     border-top-left-radius: 5vmin;
+     border-bottom-left-radius: 5vmin;
+     border: none;
+     font-size: 2.8vmin;
+ }
+
+ .input button {
+   border: none;
+   font-size: 2vmin;
+   font-weight: bolder;
+   height: 5vmin;
+   width: 10vmin;
+  border-top-right-radius: 5vmin;
+  border-bottom-right-radius: 5vmin;
+  background-color: #dd634a;
+  cursor: pointer;
+ }
+
+.container{
+  min-height: 50vmin;
+  width: 80vmin;
+  background-color: #f8ecea;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  padding-bottom: 7vmin;
+  overflow-wrap: break-word;
+}
+
+ul li {
+  list-style: none;
+  border-bottom: grey solid 0.1vmin;
+  font-size: 3.5vmin;
+  padding-top:1.5vmin;
+  padding-left:3vmin;  
+  padding-bottom:1.5vmin ;
+  padding-right:3vmin;
+  user-select: none;
+  cursor: pointer;
+
+}
+   span {
+    font-weight: bold;
+    font-size: 5vmin; 
+    display: flex;
+    position: fixed;
+    margin-left: 70vmin;
+    margin-top: -5vmin;
+   }
+   span:hover {
+    background-color: rgb(177, 175, 175);
+    border-bottom-left-radius:  400vmin;
+    border-bottom-right-radius: 400vmin;
+    border-top-left-radius:  400vmin;
+    border-top-right-radius: 400vmin;
+   }
+
+     .checked { 
+    text-decoration: line-through;
+     background-color: rgb(233, 225, 225); 
+   }
+    tick { 
+   padding-right: 2.5vmin;
+   
+    };
